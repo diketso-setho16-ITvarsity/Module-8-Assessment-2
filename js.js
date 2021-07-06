@@ -1,6 +1,6 @@
 var newLine = true; //Boolean variable determines if the next thing a user should be on the new line
 var value1;
-var currentOpertator;
+var currentOperator;
 
 //Event handler for when any digit button is pressed
 function digitBtnPressed(button){
@@ -31,7 +31,7 @@ function equalsBtnPressed(){
     var value2 = parseInt(document.getElementById("inputBox").value);
     var finalTotal;
 
-    switch(currentOpertator){
+    switch(currentOperator){
         case "+":
             finalTotal = value1 + value2;
             break;
